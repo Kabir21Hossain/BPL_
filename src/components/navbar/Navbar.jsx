@@ -1,8 +1,10 @@
-// Navbar receives coins from App via props
+// ✅ Import the image — Vite will bundle it into the build
+import logo from "../../assets/logo.png";
+
 const Navbar = ({ coins }) => {
   return (
     <div className="container mx-auto px-2 py-1 flex justify-between items-center">
-      <img src="/src/assets/logo.png" alt="logo" className="w-12" />
+      <img src={logo} alt="logo" className="w-12" />
       <div className="flex items-center gap-3">
         <ul className="flex items-center gap-6">
           <li className="text-sm">
@@ -19,7 +21,6 @@ const Navbar = ({ coins }) => {
           </li>
         </ul>
         <button className="btn rounded-md h-7">
-          {/* ✅ Show actual coin value from props */}
           <span>{coins.toLocaleString()}</span>
           Coin
           <span>

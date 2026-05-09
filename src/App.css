@@ -1,5 +1,5 @@
 .bg-hero{
-    background-image:url('./src/assets/bg-shadow.png');
+    background-image:url('./assets/bg-shadow.png');
     background-size:cover;
     background-position:center;
     height:400px;
