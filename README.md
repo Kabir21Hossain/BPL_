@@ -2,7 +2,7 @@
 
 A React-based cricket team builder where you can browse players, manage coins, and assemble your dream squad of 6 players.
 
-🔗 **Live Site:** [https://bpl-dream-team.netlify.app](https://bpl-dream-team.netlify.app)
+🔗 **Live Site:** [https://bpl-dream-team.netlify.app](https://stalwart-clafoutis-44ee84.netlify.app/)
 
 ---
 
